@@ -7,9 +7,9 @@
 
 ## Requirements
 
- - [VPS Server ](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Basic command Linux](https://github.com/matiassingers/awesome-readme)
- - [Sabar dan jangan lupa Berdoa!](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - <a href="https://wa.me/+6285389914734?text=Saya%20Mau%20Beli%20VPS%20bang%20,%20untuk%20keperluan%20NAS%20project.%20">VPS Server Ubuntu atau Debian Based</a>
+ - [Mengerti dasar command linux](https://www.niagahoster.co.id/blog/perintah-dasar-linux/)
+ - [Sabar dan jangan lupa Berdoa!](https://www.youtube.com/watch?v=oft-ebWrgvg)
 
 #
 ## Step 1: Update Software Package
