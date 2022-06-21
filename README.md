@@ -5,6 +5,23 @@
 
 #
 
+## Features
+Dibawah ini adalah Fitur yang ada di Project NAS ini
+
+- GUI Bassed
+- Full Control Security
+- Menambahkan User / Admin
+- Set SMTP e-mail server 
+- Kirim/terima E-mail
+- edit document
+- Live chat sesama user & bisa digunakan Meeting via Vidcall tanpa batas waktu
+- WEBdav Akses File
+- Set tanggal penting
+- tersedia App store untuk menambahkan plugin sesuai kebutuhan
+- Cross platform
+- Akses dimana saja Selama ada jaringan internet
+
+#
 ## Requirements
 
  - <a href="https://wa.me/+6285389914734?text=Saya%20Mau%20Beli%20VPS%20bang%20,%20untuk%20keperluan%20NAS%20project.%20">VPS Server Ubuntu atau Debian Based</a>
