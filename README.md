@@ -30,7 +30,7 @@ Dibawah ini adalah Fitur yang ada di Project NAS ini
  - [Sabar dan jangan lupa Berdoa!](https://www.youtube.com/watch?v=oft-ebWrgvg)
 
 #
-# Installation
+# Installation LAMP
 ## Step 1: Update Software Package
 
 Sebelum Instal LAMP stack Kita Update & Upgrade dahulu Server
