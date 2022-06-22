@@ -32,11 +32,9 @@ Dibawah ini adalah Fitur yang ada di Project NAS ini
 #
 ## Step 1: Update Software Package
 
-<p>Sebelum Instal LAMP stack Kita Update & Upgrade dahulu Server</P>
+Sebelum Instal LAMP stack Kita Update & Upgrade dahulu Server
 
-```bash
-NB : Kalau sudah login sebagai root , tidak usah menggunakan sudo
-```
+**NB : Kalau sudah login sebagai root , tidak perlu/wajib menggunakan sudo**
 
 ```bash
   > sudo apt update
