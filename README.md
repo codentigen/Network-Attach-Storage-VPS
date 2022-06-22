@@ -221,7 +221,7 @@ Aktifkan Apache Module
 ```
 Test Apache Configuration , Jika Muncul "syntax OK" semuanya sudah berjalan dengan benar. lalu restart apache
 ```bash
-    > sudo sudo apache2ctl -t
+    > sudo apache2ctl -t
     > sudo systemctl restart apache2
 ```
 
