@@ -139,3 +139,40 @@ Install php-fpm dan enable module + config
     > sudo a2enconf php7.4-fpm
     > sudo systemctl restart apache2
 ```
+#
+
+# Installation NAS
+## Step 1: Install GUI NAS(Nextcloud)
+
+Download NAS Nextcloud
+```bash
+    > wget https://download.nextcloud.com/server/releases/latest.zip
+```
+Download Unzip dan Extract lalu berikan permission 
+```bash
+    > sudo apt install unzip
+    > sudo unzip latest.zip -d /var/www/
+    > sudo chown www-data:www-data /var/www/nextcloud/ -R
+```
+#
+## Step 2: Buat database dan User Nextcloud di MariaDB Server
+```bash
+    > sudo mysql -u root -p
+```
+Buat Nama Database untuk Nextcloud , Kalian bebas Memberikan nama yang kalian inginkan untuk database
+```bash
+    MariaDB> create database nextcloud; 
+```
+Lalu buat user dan password untuk database kalian
+```bash
+    MariaDB> create user nextclouduser@localhost identified by 'your-password';
+```
+Berikan Semua Privileges user yang ada di database nextcloud
+```bash
+    MariaDB> grant all privileges on nextcloud.* to nextclouduser@localhost identified by 'your-password';
+    MariaDB> flush privileges;
+    MariaDB> exit; 
+```
+<a href="https://ibb.co/tCYkW1c"><img src="https://i.ibb.co/f0rBPTt/Create-a-Database-and-User-for-Nextcloud-in-Maria-DB-Database-Server.webp" alt="Create-a-Database-and-User-for-Nextcloud-in-Maria-DB-Database-Server" border="0"></a>
+#
+## Step 3: Membuat virtual host apache untuk Nextcloud
