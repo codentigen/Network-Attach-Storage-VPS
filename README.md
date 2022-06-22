@@ -1,5 +1,5 @@
 
-<h1 align="center">Nettwork Attach Storage VPS LAMP Project</h1>
+<h1 align="center">Network Attach Storage VPS LAMP Project</h1>
 <h5 align="center">Build with ❤️ by Eos Ageng</h5>
 <h5 align="center">NAS(Network Attached Storage) Menggunakan Virtual Private Server dengan konfigurasi LAMP Stack di Ubuntu Server 20.04
 Kegunaan NAS sangat Banyak. tentunya juga bisa gunakan untuk Perusahaan / Organisasi / Pribadi yang menginginkan Full Kontrol Security dalam database. Menghemat Biaya Anda karena dalam NAS ini kita bisa melakukan Video Call Meeting unlimited sesama anggota yang sudah terdaftar di database NAS dan Bisa Mennyimpan file secara cloud yang bisa di akses anggota sesuai permission yang di berikan oleh Admin</h5>
