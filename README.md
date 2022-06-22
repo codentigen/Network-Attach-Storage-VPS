@@ -208,5 +208,20 @@ copy dan Pastekan script ini , lalu save!
 
 </VirtualHost>
 ```
-NB : Jika ingin Menggunakan Domain ganti bagian servername dengan domain anda , tapi jika tidak ingin menggunakan domain ganti dengan ip vps. Dan perhatikan juga bagian document root harus sesuai path file nextcloud yang sudah di ekstrak tadi
+NB : Jika ingin Menggunakan Domain ganti bagian servername dengan domain anda , tapi jika tidak ingin menggunakan domain ganti dengan IP VPS. Dan perhatikan juga bagian document root harus sesuai path file nextcloud yang sudah di ekstrak tadi.
+#
+Aktifkan Virtual host
+```bash
+    > sudo a2ensite nexcloud.conf 
+```
+Aktifkan Apache Module
+
+```bash
+    > sudo a2enmod rewrite headers env dir mime setenvif ssl
+```
+Test Apache Configuration , Jika Muncul "syntax OK" semuanya sudah berjalan dengan benar. lalu restart apache
+```bash
+    > sudo sudo apache2ctl -t
+    > sudo systemctl restart apache2
+```
 
