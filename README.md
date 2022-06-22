@@ -209,5 +209,5 @@ copy dan Pastekan script ini , lalu save!
 </VirtualHost>
 ```
 NB : Jika ingin Menggunakan Domain , ganti bagian servername dengan domain anda.
-jadi akses NAS nantinya bisa menggunakan alamat domain
+jadi akses NAS nantinya bisa menggunakan alamat domain. Dan perhatikan juga bagian document root harus sesuai path file nextcloud yang sudah di ekstrak tadi
 
