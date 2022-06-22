@@ -224,4 +224,20 @@ Test Apache Configuration , Jika Muncul "syntax OK" semuanya sudah berjalan deng
     > sudo apache2ctl -t
     > sudo systemctl restart apache2
 ```
+Install PHP module yang di butuhkan Nexcloud lalu Reload
+```bash
+    > sudo apt install imagemagick php-imagick libapache2-mod-php7.4 php7.4-common php7.4-mysql php7.4-fpm php7.4-gd 
+      php7.4-json php7.4-curl php7.4-zip php7.4-xml php7.4-mbstring php7.4-bz2 php7.4-intl php7.4-bcmath php7.4-gmp 
+    
+    > sudo systemctl reload apache2
+```
+#
 
+## Secrenshoot
+Jika Semua install maupun set-up sudah selesai dan benar. artinya NAS anda sudah siap digunakan dan silahkan akses NAS anda di Browser
+<a href="https://ibb.co/f1nfM8s"><img src="https://i.ibb.co/WxPZnDL/nextcloud-setup-wizard.webp" alt="nextcloud-setup-wizard" border="0"></a>
+
+##
+
+<h3 align="center">Support:</h3>
+<p align ="center" ><a href="https://saweria.co/codentigen"> <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="codentigen" /></a></p><br><br>
