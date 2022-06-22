@@ -242,3 +242,5 @@ Jika Semua install maupun set-up sudah selesai & benar. artinya NAS sudah siap d
 
 <h3 align="center">Support:</h3>
 <p align ="center" ><a href="https://saweria.co/codentigen"> <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="codentigen" /></a></p><br><br>
+<h2 align="center">License</h2>
+<p align="center"><a href="https://choosealicense.com/licenses/mit/">MIT</a></P>
