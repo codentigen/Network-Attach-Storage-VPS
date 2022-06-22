@@ -25,7 +25,7 @@ Dibawah ini adalah Fitur yang ada di Project NAS ini
 ## Requirements
 
  - <a href="https://wa.me/+6285389914734?text=Saya%20Mau%20Beli%20VPS%20bang%20,%20untuk%20keperluan%20NAS%20project.%20">VPS Server Ubuntu atau Debian Based</a>
- - [Mengerti dasar command linux](https://www.niagahoster.co.id/blog/perintah-dasar-linux/)
+ - [Mengerti dasar command linux](https://bjpcjp.github.io/pdfs/devops/linux-commands-handbook.pdf)
  - [Sabar dan jangan lupa Berdoa!](https://www.youtube.com/watch?v=oft-ebWrgvg)
 
 #
