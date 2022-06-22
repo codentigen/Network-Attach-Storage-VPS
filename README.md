@@ -234,7 +234,7 @@ Install PHP module yang di butuhkan Nexcloud lalu Reload
 #
 
 ## Secrenshoot
-Jika Semua install maupun set-up sudah selesai dan benar. artinya NAS anda sudah siap digunakan dan silahkan akses NAS anda di Browser
+Jika Semua install maupun set-up sudah selesai dan benar. artinya NAS sudah siap digunakan dan silahkan akses NAS melalui Browser atau WEBdav
 #
 <a href="https://ibb.co/f1nfM8s"><img src="https://i.ibb.co/WxPZnDL/nextcloud-setup-wizard.webp" alt="nextcloud-setup-wizard" border="0"></a>
 
