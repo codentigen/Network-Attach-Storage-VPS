@@ -176,3 +176,38 @@ Berikan Semua Privileges user yang ada di database nextcloud
 <a href="https://ibb.co/tCYkW1c"><img src="https://i.ibb.co/f0rBPTt/Create-a-Database-and-User-for-Nextcloud-in-Maria-DB-Database-Server.webp" alt="Create-a-Database-and-User-for-Nextcloud-in-Maria-DB-Database-Server" border="0"></a>
 #
 ## Step 3: Membuat virtual host apache untuk Nextcloud
+Buat nextcloud.conf file di folder sites-available
+
+```bash
+    > nano /etc/apache2/sites-available/nextcloud.conf 
+```
+copy dan Pastekan script ini , lalu save!
+
+```bash
+<VirtualHost *:80>
+        DocumentRoot "/var/www/nextcloud"
+        ServerName nextcloud.example.com
+
+        ErrorLog ${APACHE_LOG_DIR}/nextcloud.error
+        CustomLog ${APACHE_LOG_DIR}/nextcloud.access combined
+
+        <Directory /var/www/nextcloud/>
+            Require all granted
+            Options FollowSymlinks MultiViews
+            AllowOverride All
+
+           <IfModule mod_dav.c>
+               Dav off
+           </IfModule>
+
+        SetEnv HOME /var/www/nextcloud
+        SetEnv HTTP_HOME /var/www/nextcloud
+        Satisfy Any
+
+       </Directory>
+
+</VirtualHost>
+```
+NB : Jika ingin Menggunakan Domain , ganti bagian servername dengan domain anda.
+jadi akses NAS nantinya bisa menggunakan alamat domain
+
