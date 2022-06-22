@@ -34,7 +34,9 @@ Dibawah ini adalah Fitur yang ada di Project NAS ini
 
 Sebelum Instal LAMP stack Kita Update & Upgrade dahulu Server
 
-**NB : Kalau sudah login sebagai root , tidak perlu/wajib menggunakan sudo**
+```bash
+  "NB : Kalau sudah login sebagai root , tidak perlu/wajib menggunakan sudo"
+```
 
 ```bash
   > sudo apt update
